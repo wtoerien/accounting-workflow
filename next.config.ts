@@ -7,6 +7,7 @@ if (process.env.REPLIT_DEV_DOMAIN) {
 }
 
 const nextConfig: NextConfig = {
+  output: "standalone",
   allowedDevOrigins: devOrigins.length > 0 ? devOrigins : undefined,
 };
 
