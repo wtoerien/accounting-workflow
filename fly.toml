@@ -2,7 +2,7 @@
 # Run `fly launch --no-deploy` to create the app, then `fly deploy` to deploy.
 
 app = "accounting-workflow"
-primary_region = "syd"
+primary_region = "ams"
 
 [build]
 
